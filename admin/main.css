@@ -1,0 +1,99 @@
+@import url("http://fonts.googleapis.com/css?family=Inter:400,300,700");
+
+body{
+  padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+  font-family: 'Inter', sans-serif !important;
+
+}
+.navbar{
+  background: #1B1B1B;
+
+}
+.nav-link, .navbar-brand{
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.nav-link:hover{
+  color: #BEF446;
+}
+.navbar-nav{
+  list-style: none;
+}
+.nav-item{
+  float: left;
+  font-size: 18px;
+}
+.btn{
+  font-size: 18px;
+}
+.btn-primary{
+  border-radius: 50px;
+  background-color:#BEF446;
+  color: black;
+  border-color: transparent;
+}
+.btn-outline-secondary{
+  border-radius: 50px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #BEF446;
+
+}
+.btn-primary:hover{
+  background-color:transparent;
+  color: #black;
+  border-color: #BEF446;
+}
+.btn-outline-secondary:hover{
+  background-color:transparent;
+  color: #black;
+  border-color: #BEF446;
+
+}
+.header-title{
+  font-weight: 900;
+  font-size:5vw;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  color: white;
+}
+.user{
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+  margin-left: 5%;
+}
+.bg-image-vertical {
+position: relative;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: right center;
+background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+.box {
+   background: #fff;
+   border-radius: 4px;
+   padding-bottom: 100%;
+}
+
+.col-lg-2, .col-md-3, .col-xs-6{
+    margin-top: 30px !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.card{
+  border-color: transparent;
+}
